@@ -31,6 +31,9 @@ namespace Excersise_1
             else if (nav == 2)
             {
                 Console.WriteLine("You chose Circle");
+                Console.WriteLine("Please enter the radius: ");
+                double rad = Convert.ToDouble(Console.ReadLine());
+
             }
             else if (nav == 3)
             {
@@ -53,16 +56,15 @@ namespace Excersise_1
         Console.WriteLine($"{num1} + {num2} = {num3}");
             return (num3);
           }
-        //public double Circle()
-        //{
-        //    //CIRCLE CALCULATOR
-        //    Console.WriteLine("Please enter the radius: ");
-        //    double rad = Convert.ToDouble(Console.ReadLine());
-        //    double cir = (rad * 2) * 3.15;
-        //    double area = 3.15 * (rad * rad);
-        //    Console.WriteLine($"Circumfrence = {cir}\n" +
-        //        $"Area = {area}");
-        //}
+        public double Circle(double rad)
+        {
+            //CIRCLE CALCULATOR
+           
+            double cir = (rad * 2) * 3.15;
+            double area = 3.15 * (rad * rad);
+           
+            return Console.WriteLine($"Cirumfrence = {cir} Area = {rad}");
+        }
         //public int TimesTable()
         //{
         //    //DISPLAYS FIRST 10 TIMES TABLES OF A NUMBER:
