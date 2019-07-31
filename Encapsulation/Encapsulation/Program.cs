@@ -20,7 +20,7 @@ namespace Encapsulation
             };
             foreach(Employee x in people)
             {
-                Console.WriteLine($"\n {x.Workers()}");
+             Console.WriteLine($"\n {x.Workers()}");
             }
             Console.ReadLine();
         }
@@ -54,7 +54,8 @@ namespace Encapsulation
         public string Workers()
         {
 
-            return $"FullName: {fullname}\n" +
+            return 
+                $"FullName: {fullname}\n" +
                 $"Phone: {phone}\n" +
                 $"Email: {email}\n" +
                 $"Ird: {ird}\n" +
